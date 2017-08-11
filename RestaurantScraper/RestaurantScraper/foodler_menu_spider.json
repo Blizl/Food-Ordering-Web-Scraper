@@ -1,0 +1,15 @@
+[
+{"link": "https://www.foodler.com/wild-olive-pizzeria/menu/20100", "name": "Wild Olive Pizzeria", "provider": "foodler"},
+{"link": "https://www.foodler.com/the-garden/menu/14581", "name": "The Garden", "provider": "foodler"},
+{"link": "https://www.foodler.com/star-pizza/menu/19318", "name": "Star Pizza", "provider": "foodler"},
+{"link": "https://www.foodler.com/mjs/menu/19292", "name": "MJ's", "provider": "foodler"},
+{"link": "https://www.foodler.com/king-pizza/menu/18316", "name": "King Pizza", "provider": "foodler"},
+{"additional": {"prices": ["1.00"], "names": ["Bacon"]}, "price": "$4.75", "restaurant_id": "MJ's", "name": "Mozzarella Sticks (6pcs)", "provider": "foodler"},
+{"additional": {"prices": ["1.00", "1.00"], "names": ["Bacon"]}, "price": "$5.00", "restaurant_id": "MJ's", "name": "Chili Fries Small", "provider": "foodler"},
+{"additional": {}, "price": "$2.95", "restaurant_id": "Wild Olive Pizzeria", "name": "Sweet Potato Fries Small", "provider": "foodler"},
+{"additional": {"prices": ["1.00", "1.00"], "names": ["Cheese", "Bacon"]}, "price": "$3.50", "restaurant_id": "MJ's", "name": "Curly Fries Small", "provider": "foodler"},
+{"additional": {}, "price": "$3.95", "restaurant_id": "Wild Olive Pizzeria", "name": "Sweet Potato Fries Large", "provider": "foodler"},
+{"additional": {}, "price": "$9.00", "restaurant_id": "King Pizza", "name": "Onion and Cheese Omelet", "provider": "foodler"},
+{"additional": {"prices": ["1.00", "1.00"], "names": ["Cheese", "Bacon"]}, "price": "$4.50", "restaurant_id": "MJ's", "name": "Curly Fries Large", "provider": "foodler"},
+{"additional": {}, "price": "$5.75", "restaurant_id": "Wild Olive Pizzeria", "name": "Crispy Steak Spring Rolls", "provider": "foodler"},
+{"additional": {}, "price": "$2.95", "restaurant_id": "Wild Olive Pizzeria", "name": "French Fries Small", "provider": "foodler"}

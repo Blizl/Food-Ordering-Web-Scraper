@@ -1,0 +1,26 @@
+<link rel="stylesheet" href={{url_for('static', filename='css/bootstrap.min.css')}} />
+<link rel="stylesheet" href={{url_for('static', filename='css/styles.css')}} />
+{% extends 'base.html' %}
+{% import "macros.html" as macros %}
+{% block content %}
+<header>
+	<center>
+		<h1>Search results for {{search_query}}</h1>
+	</center>
+</header>
+
+{% for result in results %}
+<a href=/order_food/{{result.name|replace(" ", "_")}}>
+<div class="panel panel-default col-md-6 col-md-offset-3">
+	<div class="panel-body">
+		 {{result.name}}
+		</div>
+	</div>
+</a>
+{% endfor%}
+<div class="pagination ">
+ {{ macros.pagination_widget(pagination, 'search_results') }}
+</div>
+
+
+{% endblock %}

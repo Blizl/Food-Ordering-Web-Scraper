@@ -1,0 +1,2 @@
+import RestaurantScraper
+from RestaurantScraper.spiders import foodler_spider_v3

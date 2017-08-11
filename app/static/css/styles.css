@@ -1,0 +1,54 @@
+
+#search_form{
+  position:absolute;
+  top:45%
+}
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+/*Need to fix issue where when resizing window, the text is not centered
+*/
+.jumbotron {
+  background-image:url('/static/img/high_res.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  color:white;
+
+}
+
+.text-center h1 {
+  color:white;
+
+
+  left:45%;
+  margin-left:auto;
+  margin-rigth:auto;
+
+}
+
+.pagination{
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left:35%;
+    width:100%;
+
+}
+/*.jumbotron h1 {
+  color:white;
+  position:absolute;
+  top:35%;
+  left:45%;
+  margin-left:auto;
+  margin-rigth:auto;
+}*/
